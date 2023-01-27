@@ -18,7 +18,7 @@ fetch(url)
         nameCell.innerHTML = data.data[i].first_name + " " + data.data[i].last_name;
         emailCell.innerHTML = data.data[i].email;
         avatarImg.src = data.data[i].avatar;
-        avatarImg.classList.add("round-img");
+        avatarImg.classList.add("imagen");
         avatarCell.appendChild(avatarImg);
     }
 });
